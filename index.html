@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 
 <head>
     <meta charset="UTF-8">
@@ -7,17 +7,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="/reset.css">
-    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="/css/style.css">
 </head>
 
 <body>
-    <div class="top_log">
+    <div class="top">
         <div class="container">
-            <span class="title">работаем только с юр.лицами и ип</span>
-            <div class="select">
-                <a href="#" class="login">вход</a>
+            <span class="top__title">работаем только с юр.лицами и ип</span>
+            <div class="top__select">
+                <a href="#" class="top__login">вход</a>
                 /
-                <a href="#" class="registration">регистрация</a>
+                <a href="#" class="top__registration">регистрация</a>
             </div>
         </div>
     </div>
@@ -25,15 +25,15 @@
     <header class="header">
         <div class="container">
             <div class="header__wrapper">
-                <div class="logo_box">
-                    <a href="#" class="logo">
-                        <img src="https://ps.w.org/login-customizer/assets/icon-256x256.png?rev=2455454" alt="logo">
+                <div class="logo-box">
+                    <a href="#" class="logo-box__logo">
+                        <img src="" alt="logo">
                     </a>
-                    <a href="#" class="btn buy">расчет онлайн</a>
+                    <a href="#" class="logo-box__buy">расчет онлайн</a>
                 </div>
 
                 <nav class="nav">
-                    <ul class="menu">
+                    <ul class="nav__menu">
                         <li class="menu__item">
                             <a href="#" class="menu__link">Литье</a>
                         </li>
@@ -50,30 +50,32 @@
                             <a href="#" class="menu__link">Контакты</a>
                         </li>
                     </ul>
+                    <div class="nav__info">
+                        <a href="#" class="email">email@mail.ru</a>
+                        <a href="#" class="phone">899999999</a>
+                    </div>
                 </nav>
-                <div class="info">
-                    <a href="#" class="email">email@mail.ru</a>
-                    <a href="#" class="phone">899999999</a>
-                </div>
             </div>
         </div>
     </header>
 
     <main class="main">
-        <sectuion class="section title_slider">
+        <sectuion class="section forward">
             <div class="container">
-                <h1 class="title">Изготовление на заказ изделий из пластика, резины, металла.3D-печать, ЧПУ фрезеровка,
+                <h1 class="forward__title">Изготовление на заказ изделий из пластика, резины, металла.3D-печать, ЧПУ
+                    фрезеровка,
                     литье в силикон</h1>
-                <h2 class="sub_tutle">70+ материалов срок от 1 дня собственное производство тираж от 1 шт, объемные
+                <h2 class="forward__sub-tutle">70+ материалов срок от 1 дня собственное производство тираж от 1 шт,
+                    объемные
                     скидки</h2>
-                <button class="button">узнать стоимость и заказать онлайн 3D-печать или летье</button>
-                <button class="button">отправить заявку на фрезировку</button>
-                <a href="#" class="btn_model">нет файлна 3D модели?</a>
+                <button class="forward__button button">узнать стоимость и заказать онлайн 3D-печать или летье</button>
+                <button class="forward__button-small button">отправить заявку на фрезировку</button>
+                <a href="#" class="forward__quest">нет файлна 3D модели?</a>
             </div>
         </sectuion>
 
         <sectuion class="section instruction">
-            <h2 class="sub_title">Узнать цену онлайн и оформить заказ на 3D-печать или литье очень просто</h2>
+            <h2 class="sub-title">Узнать цену онлайн и оформить заказ на 3D-печать или литье очень просто</h2>
             <div class="instruction__wrapper">
                 <div class="instruction__item">
                     <span class="instruction__num">1</span>
@@ -95,21 +97,21 @@
         </sectuion>
 
         <sectuion class="section model">
-            <h2 class="sub_title">нет 3д модели?</h2>
+            <h2 class="sub-title">нет 3д модели?</h2>
             <div class="container">
                 <div class="model__wrapper">
                     <div class="model__image">
                         <img src="" alt="">
                     </div>
-                    <div class="model__model_content">
-                        <div class="model_content__text">Воспользуйтесь калькулятором ориентировочной стоимости по
+                    <div class="model__model-content">
+                        <div class="model-content__text">Воспользуйтесь калькулятором ориентировочной стоимости по
                             габаритам изделия или напишите нам, наши специалисты помогут подобрать оптимальный способ
                             производства для вашей задачи</div>
-                        <div class="model_content__wrapper">
-                            <a href="#" class="model_content__article">посчитать примерную стоимость 3д печати</a>
-                            <a href="#" class="model_content__article">посчитать примерную стоимость литья пластика</a>
-                            <a href="#" class="model_content__article">отправить заявку на фрезировку чпу</a>
-                            <a href="#" class="model_content__article">отправить заявку на оценку проекта по почте</a>
+                        <div class="model-content__wrapper">
+                            <a href="#" class="model-content__article">посчитать примерную стоимость 3д печати</a>
+                            <a href="#" class="model-content__article">посчитать примерную стоимость литья пластика</a>
+                            <a href="#" class="model-content__article">отправить заявку на фрезировку чпу</a>
+                            <a href="#" class="model-content__article">отправить заявку на оценку проекта по почте</a>
                         </div>
                     </div>
                 </div>
@@ -117,33 +119,33 @@
         </sectuion>
 
         <sectuion class="section service">
-            <h2 class="sub_title">наши услуги</h2>
+            <h2 class="sub-title">наши услуги</h2>
             <div class="container">
                 <div class="service__wrapper">
                     <div class="service__item">
-                        <div class="service_item__image">
+                        <div class="service-item__image">
                             <img src="" alt="">
                         </div>
-                        <a class="service_item__title">3d печать</a>
-                        <p class="service_item__text">Печать на 3D принтере выгодно использовать для быстрого
+                        <a class="service-item__title">3d печать</a>
+                        <p class="service-item__text">Печать на 3D принтере выгодно использовать для быстрого
                             изготовления прототипов, мастер-моделей, штучных изделий.
                             Срок 3Д-печати от 1 дня, 10+ материалов.</p>
                     </div>
                     <div class="service__item">
-                        <div class="service_item__image">
+                        <div class="service-item__image">
                             <img src="" alt="">
                         </div>
-                        <a class="service_item__title">3d печать</a>
-                        <p class="service_item__text">Печать на 3D принтере выгодно использовать для быстрого
+                        <a class="service-item__title">3d печать</a>
+                        <p class="service-item__text">Печать на 3D принтере выгодно использовать для быстрого
                             изготовления прототипов, мастер-моделей, штучных изделий.
                             Срок 3Д-печати от 1 дня, 10+ материалов.</p>
                     </div>
                     <div class="service__item">
-                        <div class="service_item__image">
+                        <div class="service-item__image">
                             <img src="" alt="">
                         </div>
-                        <a class="service_item__title">3d печать</a>
-                        <p class="service_item__text">Печать на 3D принтере выгодно использовать для быстрого
+                        <a class="service-item__title">3d печать</a>
+                        <p class="service-item__text">Печать на 3D принтере выгодно использовать для быстрого
                             изготовления прототипов, мастер-моделей, штучных изделий.
                             Срок 3Д-печати от 1 дня, 10+ материалов.</p>
                     </div>
@@ -152,69 +154,68 @@
         </sectuion>
 
         <sectuion class="section question">
-            <h2 class="sub_title">Не знаете, что выбрать?</h2>
+            <h2 class="sub-title">Не знаете, что выбрать?</h2>
             <div class="container">
-                <span><a href="#">Напишите</a> или <a href="#">позвоните</a> нам.
-                    Наши специалисты изучат вашу задачу
-                    и помогут подобрать оптимальное решение</span>
-                <a href="#" class="button">отправить заявку</a>
+                <div class="question__content"><a href="#">Напишите</a> или <a href="#">позвоните</a> нам.
+                    Наши специалисты изучат вашу задачу и помогут подобрать оптимальное решение</div>
+                <a href="#" class="question_button button">отправить заявку</a>
             </div>
         </sectuion>
 
         <sectuion class="section benefits">
-            <h2 class="sub_title">Наши преимущества</h2>
+            <h2 class="sub-title">Наши преимущества</h2>
             <div class="container">
                 <div class="benefits__wrapper">
-                    <a class="benefits__item" href="#">
-                        <div class="benefits_item__icon">
+                    <a class="benefits-item" href="#">
+                        <div class="benefits-item__icon">
                             <img src="" alt="">
                         </div>
-                        <p class="benefits_item__text">70+ материалов
+                        <p class="benefits-item__text">70+ материалов
                             для 3D-печати, литья и фрезеровки</p>
                     </a>
-                    <a class="benefits__item" href="#">
+                    <a class="benefits-item" href="#">
                         <div class="benefits_item__icon">
                             <img src="" alt="">
                         </div>
-                        <p class="benefits_item__text">расчет стоимости и оплата заказа онлайн</p>
+                        <p class="benefits-item__text">расчет стоимости и оплата заказа онлайн</p>
                     </a>
-                    <a class="benefits__item" href="#">
-                        <div class="benefits_item__icon">
+                    <a class="benefits-item" href="#">
+                        <div class="benefits-item__icon">
                             <img src="" alt="">
                         </div>
-                        <p class="benefits_item__text">сроки изготовления от 1 дня</p>
+                        <p class="benefits-item__text">сроки изготовления от 1 дня</p>
                     </a>
-                    <a class="benefits__item" href="#">
-                        <div class="benefits_item__icon">
+                    <a class="benefits-item" href="#">
+                        <div class="benefits-item__icon">
                             <img src="" alt="">
                         </div>
-                        <p class="benefits_item__text">экспресс доставка по россии, самовывоз в москве</p>
+                        <p class="benefits-item__text">экспресс доставка по россии, самовывоз в москве</p>
                     </a>
                 </div>
             </div>
         </sectuion>
 
         <sectuion class="section portfolio">
-            <h2 class="sub_title">Наши работы</h2>
+            <h2 class="sub-title">Наши работы</h2>
             <div class="container">
                 <div class="portfolio__wrapper">
-                    <div class="portfolio__item">
-                        <a href="#" class="portfolio_item__article">
+                    <div class="portfolio-item">
+                        <a href="#" class="portfolio-item__article">
                             <img src="" alt="">
                         </a>
                     </div>
-                    <div class="portfolio__item">
-                        <a href="#" class="portfolio_item__article">
+                    <div class="portfolio-item">
+                        <a href="#" class="portfolio-item__article">
                             <img src="" alt="">
                         </a>
                     </div>
-                    <div class="portfolio__item">
-                        <a href="#" class="portfolio_item__article">
+                    <div class="portfolio-item">
+                        <a href="#" class="portfolio-item__article">
                             <img src="" alt="">
                         </a>
                     </div>
-                    <div class="portfolio__item">
-                        <a href="#" class="portfolio_item__article">
+                    <div class="portfolio-item">
+                        <a href="#" class="portfolio-item__article">
                             <img src="" alt="">
                         </a>
                     </div>
@@ -257,8 +258,8 @@
                 </div>
                 <div class="footer__pay">
                     <a href="#">банковска оплата по счёту</a>
-                    <div class="footer__pay_banks">
-                        <img class="pay_banks__item" src="#" alt="">
+                    <div class="footer__pay-banks">
+                        <img class="pay-banks__item" src="#" alt="">
                     </div>
                 </div>
                 <div class="footer__table">
