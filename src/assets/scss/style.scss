@@ -1,6 +1,7 @@
 @use 'reset';
-@use 'media';
 @use 'header';
+@use 'vars';
+@use 'media';
 
 *,
 ::after,
@@ -15,4 +16,7 @@ a {
   max-width: 980px;
   padding: 0 15px;
   margin: 0 auto;
+}
+body{
+  font-family: 'Roboto', sans-serif;
 }

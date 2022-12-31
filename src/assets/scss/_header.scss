@@ -1,209 +1,199 @@
+$bgc-one: #333;
+
 .top {
+    background-color: $bgc-one;
+    color: #fff;
+    height: 43px;
+    text-align: right;
+    padding-top: 12px;
 
     &__title {
+        display: inline-block;
+        font-size: 21px;
+        line-height: 13px;
+        margin: 0;
+        text-align: left;
+        font-weight: 400;
+        margin-right: 300px;
     }
 
     &__select {
+        display: inline-block;
+        font-size: 15px;
+        line-height: 13px;
     }
 
-    &__login {
-    }
+    &__login {}
 
-    &__registration {
-    }
+    &__registration {}
 }
 
 .header {
 
-    &__wrapper {
-    }
+    &__wrapper {}
 }
+
 .logo-box {
 
-    &__logo {
-    }
+    &__logo {}
 
-    &__buy {
-    }
+    &__buy {}
 }
+
 .nav {
 
-    &__menu {
-    }
+    &__menu {}
 
-    &__info {
-    }
+    &__info {}
 }
+
 .menu {
 
-    &__item {
-    }
+    &__item {}
 
-    &__link {
-    }
+    &__link {}
 }
-.email {
-}
+
+.email {}
+
 .phone {
 
-    &_email {
-    }
+    &_email {}
 }
-.main {
-}
-.section {
-}
+
+.main {}
+
+.section {}
+
 .forward {
 
-    &__title {
-    }
+    &__title {}
 
-    &__sub-tutle {
-    }
+    &__sub-tutle {}
 
-    &__button {
-    }
+    &__button {}
 
-    &__button-small {
-    }
+    &__button-small {}
 
-    &__quest {
-    }
+    &__quest {}
 }
-.button {
-}
+
+.button {}
+
 .instruction {
 
-    &__wrapper {
-    }
+    &__wrapper {}
 
-    &__item {
-    }
+    &__item {}
 
-    &__num {
-    }
+    &__num {}
 
-    &__text {
-    }
+    &__text {}
 }
-.sub-title {
-}
+
+.sub-title {}
+
 .model {
 
-    &__wrapper {
-    }
+    &__wrapper {}
 
-    &__image {
-    }
+    &__image {}
 
-    &__model-content {
-    }
+    &__model-content {}
 }
+
 .model-content {
 
-    &__text {
-    }
+    &__text {}
 
-    &__wrapper {
-    }
+    &__wrapper {}
 
-    &__article {
-    }
+    &__article {}
 }
+
 .service {
 
-    &__wrapper {
-    }
+    &__wrapper {}
 
-    &__item {
-    }
+    &__item {}
 }
+
 .service-item {
 
-    &__image {
-    }
+    &__image {}
 
-    &__title {
-    }
+    &__title {}
 
-    &__text {
-    }
+    &__text {}
 }
+
 .question {
 
-    &_button {
-    }
+    &_button {}
 
-    &__content {
-    }
+    &__content {}
 }
+
 .benefits {
 
-    &__wrapper {
-    }
+    &__wrapper {}
 }
+
 .benefits-item {
 
-    &__icon {
-    }
+    &__icon {}
 
-    &__text {
-    }
+    &__text {}
 }
+
 .benefits_item {
 
-    &__icon {
-    }
+    &__icon {}
 }
+
 .portfolio {
 
-    &__wrapper {
-    }
+    &__wrapper {}
 }
+
 .portfolio-item {
 
-    &__article {
-    }
+    &__article {}
 }
+
 .footer {
 
-    &__wrapper {
-    }
+    &__wrapper {}
 
-    &__info {
-    }
+    &__info {}
 
-    &__social {
-    }
+    &__social {}
 
-    &__pay {
-    }
+    &__pay {}
 
-    &__pay-banks {
-    }
+    &__pay-banks {}
 
-    &__table {
-    }
+    &__table {}
 }
-.adress {
-}
-.vk {
-}
-.youtube {
-}
-.telegram {
-}
-.wathapp {
-}
+
+.adress {}
+
+.vk {}
+
+.youtube {}
+
+.telegram {}
+
+.wathapp {}
+
 .pay-banks {
 
-    &__item {
-    }
+    &__item {}
 }
+
 .table {
 
-    &__item {
-    }
+    &__item {}
 }
-.link {
-}
+
+.link {}
